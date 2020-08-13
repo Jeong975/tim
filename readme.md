@@ -1,8 +1,5 @@
 # 腾讯云通信+ThinkPHP5.0
 
-## 安装方法
-`composer require hxc/im`
-
 ## 使用方法
 
 1. 在`application/config.php`中增加配置信息：
@@ -10,6 +7,7 @@
    ```php
    'im' => [
      'appid'  => '云通信appid',
+	 'prefix' => '前缀', // cache存储的前缀
      'admin'  => '帐号管理员用户名',
      'secret'   => '云通信密钥',
      'domain' => 'https://console.tim.qq.com',//请求的域名，无特殊情况不用修改
