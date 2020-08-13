@@ -1,14 +1,14 @@
 <?php
 
-namespace JEONG;
+namespace Jeong;
 
 use EasyWeChat\Kernel\Exceptions\Exception;
-use JEONG\Gateway\Base;
-use JEONG\Provider\TX;
+use Jeong\Gateway\Base;
+use Jeong\Provider\TX;
 
 /**
  * Class IM
- * @package JEONG
+ * @package Jeong
  * @method static TX TX($config = []) 腾讯im
  */
 class IM
@@ -41,7 +41,7 @@ class IM
      */
     public function make($class)
     {
-        $class_name = '\JEONG\Provider\\'.$class;
+        $class_name = '\Jeong\Provider\\'.$class;
 
         $app = new $class_name($this->config);
         if($app instanceof Base){

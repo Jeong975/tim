@@ -1,8 +1,8 @@
 <?php
-namespace JEONG\Provider;
+namespace Jeong\Provider;
 
 use GuzzleHttp\Client;
-use JEONG\Gateway\Base;
+use Jeong\Gateway\Base;
 use Tencent\TLSSigAPIv2;
 use think\facade\Cache;
 use think\Exception;

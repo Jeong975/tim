@@ -1,5 +1,5 @@
 <?php
-namespace JEONG\Gateway;
+namespace Jeong\Gateway;
 
 interface Base
 {
