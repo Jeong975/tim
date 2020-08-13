@@ -1,11 +1,11 @@
 {
-    "name": "hxc/im",
+    "name": "jeong/im",
     "description": "TP5+腾讯云通信服务端api",
     "license": "MIT",
     "authors": [
         {
             "name": "hxc",
-            "email": "3365997294@qq.com"
+            "email": "Jeong975@163.com"
         }
     ],
     "minimum-stability": "dev",
